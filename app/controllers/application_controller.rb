@@ -5,4 +5,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
    add_template_helper(ApplicationHelper)
    add_template_helper(UsersHelper)
+   add_template_helper(SessionsHelper)
 end
