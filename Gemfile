@@ -39,6 +39,11 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#debug
+gem 'rails-footnotes', '>4.0.0', '<5'
+
+#console helper
+gem 'hirb'
 
 group :development, :test do
   gem 'byebug',      '3.4.0'
