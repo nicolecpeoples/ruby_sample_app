@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
    add_template_helper(ApplicationHelper)
    add_template_helper(UsersHelper)
    add_template_helper(SessionsHelper)
+
+   def base_url       
+    $base_url = request.base_url
+  end
 end
